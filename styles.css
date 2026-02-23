@@ -1,0 +1,63 @@
+body {
+	background-color: #f9ece2;
+}
+p,
+h1,
+h2,
+input,
+button {
+	font-family: "DM Sans";
+}
+h1 {
+	color: #382314;
+}
+h2 {
+	color: #92857a;
+}
+button {
+	background-color: #ec755d;
+	border-radius: 20px;
+	border: none;
+	padding: 12px;
+	color: #ffffff;
+}
+input {
+	color: #92857a;
+	padding: 12px;
+	border-radius: 20px;
+	width: 75%;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+}
+.additem {
+	width: 100%;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+}
+.list {
+	width: 75%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+}
+.add {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.listitem {
+	width: 50%;
+	border-radius: 20px;
+	border: 2px solid #ec755d;
+	background-color: #ffffff;
+	color: #ec755d;
+	padding: 10px;
+}
