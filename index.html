@@ -16,10 +16,15 @@
 		<main>
 			<section class="add">
 				<h1>Gérer vos dépenses MAINTENANT !</h1>
-				<div class="additem">
-					<input type="text" placeholder="Votre dépense" id="depense" />
-					<button id="submit">Ajouter une dépense</button>
-				</div>
+				<form class="additem" id="form">
+					<input
+						type="text"
+						placeholder="Votre dépense"
+						id="depense"
+						required
+					/>
+					<button type="submit" id="submit">Ajouter une dépense</button>
+				</form>
 			</section>
 			<section class="list" id="list">
 				<h2 id="none">Aucune dépenses :(</h2>

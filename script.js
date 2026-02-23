@@ -1,9 +1,11 @@
-const $button = document.querySelector("#submit");
 let $inputvalue = document.querySelector("#depense");
 const $list = document.querySelector("#list");
 let $h2 = document.querySelector("#none");
+const $form = document.querySelector("#form");
 
-$button.addEventListener("click", () => {
+$form.addEventListener("submit", (e) => {
+	e.preventDefault();
+
 	$h2.remove();
 
 	const ItemDiv = document.createElement("div");
